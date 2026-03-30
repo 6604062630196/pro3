@@ -236,13 +236,13 @@ cards = [
 ]
 for col, (cls, icon, title, desc) in zip([col1, col2, col3, col4], cards):
 with col:
-st.markdown(f”””
+st.markdown(f"""
 <div class="feature-card {cls}">
 <div class="feature-icon">{icon}</div>
 <div class="feature-title">{title}</div>
 <div class="feature-desc">{desc}</div>
 </div>
-“””, unsafe_allow_html=True)
+""", unsafe_allow_html=True)
 
 st.markdown(”<br>”, unsafe_allow_html=True)
 
@@ -250,20 +250,20 @@ st.markdown(”<br>”, unsafe_allow_html=True)
 
 st.markdown(”### 📈 สรุปโปรเจกต์”)
 c1, c2, c3, c4 = st.columns(4)
-c1.metric(“📁 Datasets”,    “2 ชุด”,   “Heart + Diabetes”)
-c2.metric(“🤖 ML Models”,   “5 Base”,  “Voting Ensemble”)
-c3.metric(“🧠 NN Layers”,   “3 Hidden”,“128→64→32”)
-c4.metric(“📋 Total Pages”, “4 หน้า”,  “Describe + Demo”)
+c1.metric("📁 Datasets",    "2 ชุด",   "Heart + Diabetes")
+c2.metric("🤖 ML Models",   "5 Base",  "Voting Ensemble")
+c3.metric("🧠 NN Layers",   "3 Hidden","128→64→32")
+c4.metric("📋 Total Pages", "4 หน้า",  "Describe + Demo")
 
-st.markdown(”—”)
+st.markdown("—")
 
 # Dataset overview
 
-st.markdown(”### 📂 Dataset Overview”)
+st.markdown("### 📂 Dataset Overview")
 col_a, col_b = st.columns(2)
 
 with col_a:
-st.markdown(”””
+st.markdown("""
 <div style='background:white; border-radius:14px; padding:1.5rem; box-shadow:0 2px 12px rgba(0,0,0,0.06); border-top:4px solid #ef4444'>
 <h4 style='margin:0 0 0.75rem; color:#0f172a'>❤️ Heart Disease Dataset</h4>
 <table style='width:100%; font-size:0.85rem; border-collapse:collapse'>
@@ -274,10 +274,10 @@ st.markdown(”””
 <tr><td style='color:#64748b; padding:0.2rem 0'>ปัญหา</td><td><b>Missing values ใน trestbps, chol</b></td></tr>
 </table>
 </div>
-“””, unsafe_allow_html=True)
+""", unsafe_allow_html=True)
 
 with col_b:
-st.markdown(”””
+st.markdown("""
 <div style='background:white; border-radius:14px; padding:1.5rem; box-shadow:0 2px 12px rgba(0,0,0,0.06); border-top:4px solid #3b82f6'>
 <h4 style='margin:0 0 0.75rem; color:#0f172a'>💉 Diabetes Dataset</h4>
 <table style='width:100%; font-size:0.85rem; border-collapse:collapse'>
@@ -288,7 +288,7 @@ st.markdown(”””
 <tr><td style='color:#64748b; padding:0.2rem 0'>ปัญหา</td><td><b>Zero-values แทน missing (Glucose, BMI)</b></td></tr>
 </table>
 </div>
-“””, unsafe_allow_html=True)
+""", unsafe_allow_html=True)
 
-st.markdown(”<br>”, unsafe_allow_html=True)
-st.info(“👈 ใช้เมนูด้านซ้ายเพื่อดูรายละเอียดโมเดลหรือทดสอบการทำนาย”)
+st.markdown("<br>", unsafe_allow_html=True)
+st.info("👈 ใช้เมนูด้านซ้ายเพื่อดูรายละเอียดโมเดลหรือทดสอบการทำนาย")
