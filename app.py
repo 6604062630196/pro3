@@ -229,10 +229,10 @@ st.markdown("""
 
 col1, col2, col3, col4 = st.columns(4)
 cards = [
-(“ml”,   “🤖”, “ML Ensemble Model”,      “Voting Classifier ผสม Random Forest, GBM, AdaBoost, LR, SVM ทำนายโรคหัวใจ”),
-(“nn”,   “🧠”, “Neural Network Model”,   “MLP ออกแบบเอง 3 hidden layers พร้อม BatchNorm + Dropout ทำนายเบาหวาน”),
-(“data”, “📊”, “2 Health Datasets”,       “Heart Disease (UCI) และ Diabetes (Pima Indians) ผ่านการ preprocess แล้ว”),
-(“demo”, “⚡”, “Live Prediction Demo”,   “ป้อนข้อมูลสุขภาพและรับผลการทำนายพร้อมความน่าจะเป็นแบบ Real-time”),
+("ml",   "🤖", "ML Ensemble Model",      "Voting Classifier ผสม Random Forest, GBM, AdaBoost, LR, SVM ทำนายโรคหัวใจ"),
+("nn",   "🧠", "Neural Network Model",   "MLP ออกแบบเอง 3 hidden layers พร้อม BatchNorm + Dropout ทำนายเบาหวาน"),
+("data", "📊", "2 Health Datasets",       "Heart Disease (UCI) และ Diabetes (Pima Indians) ผ่านการ preprocess แล้ว"),
+("demo", "⚡", "Live Prediction Demo",   "ป้อนข้อมูลสุขภาพและรับผลการทำนายพร้อมความน่าจะเป็นแบบ Real-time"),
 ]
 for col, (cls, icon, title, desc) in zip([col1, col2, col3, col4], cards):
 with col:
