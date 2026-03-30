@@ -1,7 +1,4 @@
-“””
-HealthAI — Multi-Model Health Prediction Platform
-Main entry point for Streamlit multi-page app.
-“””
+
 import streamlit as st
 
 st.set_page_config(
