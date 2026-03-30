@@ -244,7 +244,7 @@ st.markdown(f"""
 </div>
 """, unsafe_allow_html=True)
 
-st.markdown(”<br>”, unsafe_allow_html=True)
+st.markdown("<br>", unsafe_allow_html=True)
 
 # Stats row
 
