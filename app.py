@@ -10,7 +10,7 @@ initial_sidebar_state="expanded",
 
 # ─── Global CSS ──────────────────────────────────────────────────────────────
 
-st.markdown(”””
+st.markdown("""
 
 <style>
   @import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=DM+Sans:wght@300;400;500;600&display=swap');
@@ -175,7 +175,7 @@ st.markdown(”””
   }
 </style>
 
-“””, unsafe_allow_html=True)
+""", unsafe_allow_html=True)
 
 # ─── Sidebar ─────────────────────────────────────────────────────────────────
 
