@@ -1,5 +1,6 @@
 # pro3
-Project intelligent system เกี่ยวกับการสุขภาพโรคหัวใจและเบาหวาน
+Streamlit web application สำหรับทำนายความเสี่ยงโรคสุขภาพด้วย Machine Learning และ Neural Network
+
 health_ml_app/
 ├── app.py                     # หน้าหลัก (Home)
 ├── pages/
@@ -16,3 +17,4 @@ health_ml_app/
 ├── models/                   # Saved model files (auto-generated)
 ├── .streamlit/config.toml    # Streamlit config
 └── requirements.txt
+
