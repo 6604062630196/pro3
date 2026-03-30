@@ -179,7 +179,8 @@ st.markdown("""
 
 # ─── Sidebar ─────────────────────────────────────────────────────────────────
 
-with st.sidebar:
+with 
+st.sidebar:
 st.markdown("""
 <div style='text-align:center; padding: 1.5rem 0 1rem'>
 <div style='font-size:2.8rem'>🏥</div>
