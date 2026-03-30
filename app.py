@@ -248,7 +248,7 @@ st.markdown("<br>", unsafe_allow_html=True)
 
 # Stats row
 
-st.markdown(”### 📈 สรุปโปรเจกต์”)
+st.markdown("### 📈 สรุปโปรเจกต์")
 c1, c2, c3, c4 = st.columns(4)
 c1.metric("📁 Datasets",    "2 ชุด",   "Heart + Diabetes")
 c2.metric("🤖 ML Models",   "5 Base",  "Voting Ensemble")
