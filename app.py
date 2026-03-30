@@ -213,7 +213,7 @@ st.markdown("""
 
 # ─── Home Page ───────────────────────────────────────────────────────────────
 
-st.markdown(”””
+st.markdown("""
 
 <div class="hero-card">
   <div class="hero-badge">🏥 Health AI Platform</div>
