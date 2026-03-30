@@ -2,10 +2,10 @@
 import streamlit as st
 
 st.set_page_config(
-page_title=“HealthAI Platform”,
-page_icon=“🏥”,
-layout=“wide”,
-initial_sidebar_state=“expanded”,
+page_title="HealthAI Platform",
+page_icon="🏥",
+layout="wide",
+initial_sidebar_state="expanded",
 )
 
 # ─── Global CSS ──────────────────────────────────────────────────────────────
@@ -180,14 +180,14 @@ st.markdown(”””
 # ─── Sidebar ─────────────────────────────────────────────────────────────────
 
 with st.sidebar:
-st.markdown(”””
+st.markdown("""
 <div style='text-align:center; padding: 1.5rem 0 1rem'>
 <div style='font-size:2.8rem'>🏥</div>
 <div style='font-family:"DM Serif Display",serif; font-size:1.4rem; color:#7dc4e4; margin-top:0.3rem'>HealthAI</div>
 <div style='font-size:0.75rem; color:#64748b; margin-top:0.25rem; letter-spacing:1px'>PREDICTION PLATFORM</div>
 </div>
 <hr style='border-color:#2a3f55; margin:0.5rem 0 1rem'>
-“””, unsafe_allow_html=True)
+""", unsafe_allow_html=True)
 
 ```
 st.markdown("### 📚 เอกสารโมเดล")
